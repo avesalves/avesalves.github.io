@@ -123,11 +123,11 @@ IMG.displayed{
     margin-right: auto
 }
 IMG.compras{
-    position: absolute;
-    width: 80px;
-    height: 37px;
-    left: 1070px;
-    top: 30px;
+     position: absolute;
+    width: 65px;
+    height: 35px;
+    left: 75%;
+    top: 4%;
 }
 .box{
     position: absolute;
