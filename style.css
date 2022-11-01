@@ -1,8 +1,24 @@
 @charset "UTF-8";
+@media screen and
+(min-width: 300px){
+
+.cont{
+    width: 5%;
+}
+.boxI{
+    font-size: 1rem;
+}
+
+}
+@media screen and
+(min-width: 1024px)
+{
+*{ overflow-x: hidden;}
+ }
 *{
     margin: 0; padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-   /* height: 100%;*/
+
      
 }
 
@@ -37,7 +53,7 @@ h1{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 3rem;
     line-height: 0px;
     padding-left: 10px;
     padding-bottom: 10px;
@@ -122,10 +138,11 @@ nav{
     margin-right: 2%;
     margin-left: 2%;
 }
-IMG.displayed{
+.cont{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 50rem;
 
 }
 IMG.compras{
